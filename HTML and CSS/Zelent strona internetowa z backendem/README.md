@@ -1,5 +1,5 @@
 ### **Strona internetowa utworzona z kursem Mirosława Zelenta "PHP".** 
-Jest to prosty szablon "gry internegowej". Strona jest surowa (bez dbałości o HTML i bez zastosowania CSS) - jedynie w celu nauki podstaw PHP.
+Jest to prosty szablon "gry internetowej". Strona jest surowa (bez dbałości o HTML i bez zastosowania CSS) - jedynie w celu nauki podstaw PHP.
 
 Zastosowano tutaj **bazy danych MySQL** pakietu **xampp** wraz z **Apache**. 
 Program zawiera formularz logowania, formularz rejestracji. 
