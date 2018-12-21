@@ -11,6 +11,28 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet"> 
 	
+	<!-- podpięcie jQuery z Google Hosted Libraries-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- wykorzystanie pliku z GitHuba z funkcją scrollto -->
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		jQuery(function($){
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link3').click(function(){$.scrollTo($('#maskicrt'), 500);});
+			$('.scrollup').click(function(){$.scrollTo($('body'), 1000);});
+		});
+		
+		//pokaż przycisk podczas przewijania
+		$(window).scroll(function(){		
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		});
+	</script>
+	
 </head>
 
 <body>
@@ -18,6 +40,9 @@
 	<div id="logo">Wykład #1: Monitory komputerowe</div>
 	
 	<div id="container">
+	
+		<a href="#" class="scrollup"></a>
+	
 		<div id="spis">
 			<ol>
 				<li>
@@ -25,7 +50,7 @@
 					<ul>
 						<li>Budowa monitora</li>
 						<li>Zasada działania</li>
-						<li><a href="#maskicrt">Maska. Rodzaje masek</a></li>
+						<li><a id="link3" href="#">Maska. Rodzaje masek</a></li>
 						<li>Wady i zalety</li>
 						<li>Dobór parametrów</li>
 					</ul>
@@ -586,10 +611,10 @@
 				<li>http://www.neurosoft.edu.pl/zgomolka/CRT_LCD.pdf</li>
 				<li>Wikipedia.pl</li>
 			</ul>
-		</div>
-
-		
+		</div>	
 	</div>
+	
+	<div id="footer">Strona wykonana z kursem Mirosława Zelenta</div>
 	
 </body>
 </html>
