@@ -6,6 +6,30 @@ body{
 	font-size: 20px;
 }
 
+/* nieodwiedzony link */
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+/* odwiedzony link */
+a:visited{
+	color: black;
+	text-decoration: none;	
+}
+
+/* po najechaniu kursorem */
+a:hover{
+	color: #485b3b;
+	text-decoration: underline;
+}
+
+/* link aktywny w tej chwili */
+a:active{
+	color: black;
+	text-decoration: none;
+}
+
 #logo{
 	width: 100%;
 	height: 50px;
