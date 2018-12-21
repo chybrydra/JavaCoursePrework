@@ -71,3 +71,14 @@ ol > li > ul > li:before{
 	content: "\0026A0"; /* dodanie trójkąta jako punktora */
 	margin-right: 5px;
 }
+
+.slajd{
+	padding: 20px 40px;
+	text-align: justify;
+}
+
+h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
