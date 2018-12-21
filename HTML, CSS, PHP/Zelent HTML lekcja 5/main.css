@@ -133,3 +133,30 @@ h2{
 	font-weight: 400px;
 	color: #39a5f1;
 }
+
+.contact{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.contact p{
+	margin-bottom: 50px;
+}
+
+.bluebutton{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover{
+	background-color: #196449;
+}
