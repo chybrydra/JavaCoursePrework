@@ -21,3 +21,8 @@ h1
 .row{
 	margin: 20px 10px;
 }
+
+.col{
+	display: inline-block;
+	margin: 0 10px;
+}
