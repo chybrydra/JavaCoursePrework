@@ -30,7 +30,7 @@
 	
 	<main>	
 		<article>		
-			<form action="" method="post">	
+			<form action="order.php" method="post">	
 
 				<div class="row">
 					<fieldset>
@@ -75,6 +75,31 @@
 								<div><label><input type="checkbox" value = "12" name="wyp" >światla LED do jazdy dziennej</label></div>						
 							</div>
 					</fieldset>
+				</div>
+				
+				<div class="row">					
+					<label for="choinka">Jakie choinki zapachowe?</label>
+					<div style="margin-top: 10px;">
+					<select id="choinka" name="choinka[]" multiple size="5">
+						<option value="k">kokosowa</option>
+						<option value="c" selected>cytrynowa</option>
+						<option value="t">truskawkowa</option>
+						<option value="b">brzoskwiniowa</option>
+					</select>
+				</div>
+				
+				<div class="row">
+					<label>Imię: <input type="text" name="imie" placeholder="Jak masz na imię?" /></label>
+				</div>		
+				
+				<div class="row">
+					<label>Ile kluczyków:<input type="number" name="kluczyk" step="2" /></label>
+				</div>
+				
+				<div class="row">
+					<input type="submit" value="submit dude!" />
+					<input type="button" value="submit 2!" />
+					<button type="button">SABMIT</value>
 				</div>
 			</form>			
 		</article>		
