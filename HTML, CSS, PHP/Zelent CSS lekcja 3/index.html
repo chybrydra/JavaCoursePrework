@@ -9,10 +9,113 @@
 	<meta name="description" content="Serwis o starych grach pochodzacych z Nintendo Entertainment System (NES)" />
 	<meta name="keywords" content="gry, komputerowe, retro, nes, konsole, retrogranie, stare gry" />
 	
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+	
+	<!-- jQuery library -->
+	<script src="jquery-3.3.1.min.js"></script>
+	<!-- sticky menu -->
+	<script>
+	$(document).ready(function() {
+		var NavY = $('.nav').offset().top;	 
+		var stickyNav = function(){
+			var ScrollY = $(window).scrollTop();		  
+			if (ScrollY > NavY) { 
+				$('.nav').addClass('sticky');
+			} else {
+				$('.nav').removeClass('sticky'); 
+			}
+		};	 
+		stickyNav();	 
+		$(window).scroll(function() {
+			stickyNav();
+		});
+	});	
+	</script>
 </head>
 
 <body>
 	
-	
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<img src="pad.png" style="float:left;" />				
+				<span style="color: #c34f4f">retro</span>granie.com
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		<div class="nav">
+			<ol>
+				<li>
+					<a href="#">Strona glowna</a>
+				</li>
+				<li>
+					<a href="#">Klasyki NES</a>
+					<ul>
+						<li><a href="#">Contra</a></li>
+						<li><a href="#">Mario Bros</a></li>
+						<li><a href="#">Duck Tales</a></li>
+						<li><a href="#">Legend of Zelda</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Gry filmowe</a>
+					<ul>
+						<li><a href="#">Home Alone</a></li>
+						<li><a href="#">Dick Tracy</a></li>
+						<li><a href="#">The Simpsons</a></li>
+						<li><a href="#">Top Gun</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Bijatyki</a>
+					<ul>
+						<li><a href="#">Mortal Combat</a></li>
+						<li><a href="#">Nekketsu K.D.</a></li>
+						<li><a href="#">Double Dragon</a></li>
+						<li><a href="#">Turtles T.</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Gry sportowe</a>
+					<ul>
+						<li><a href="#">Goal 3</a></li>
+						<li><a href="#">Excitebike</a></li>
+						<li><a href="#">Ike Ike Hockey</a></li>
+						<li><a href="#">Tennis</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">O autorach</a>
+				</li>
+			</ol>
+		</div>
+		<div class="content">	
+
+		<p>Adventures in the magic kingdom bad dudes vs. dragonninja bill elliott's nascar challenge the black bass caesars palace digger t. rock: legend of the lost city double dragon ii: the revenge gumshoe klashball life force little league baseball: championship series m.c. kids mike tyson's punch-out!! mission: impossible pro sport hockey race america rescue: the embassy mission solstice: the quest for the staff of demnos star soldier tag team wrestling the terminator ultima v: warriors of destiny. Adventure island bases loaded 3 battletoads blaster master fist of the north star the jetsons: cogswell's caper! kid kool motor city patrol the newzealand story spider-man: return of the sinister six stinger super mario bros./duck hunt uninvited world champ.</p>
+
+		<p>Adventures of lolo athena boulder dash burai fighter cabal f-117a stealth fighter indiana jones and the last crusade mario bros. mission: impossible mystery quest the newzealand story pirates! power blade 2 the smurfs solar jetman: hunt for the golden warpship tecmo world cup soccer uncharted waters volleyball wild gunman. The adventures of bayou billy castelian contra cyberball dragon warrior iii duck hunt ghostbusters godzilla: monster of monsters ikari warriors ii: victory road the immortal little ninja brothers mega man 3 michael andretti's world gp noah's ark peter pan and the pirates puss 'n boots: pero's great adventure r.c. pro-am ii romance of the three kingdoms solomon's key spot: the video game terra cresta thunderbirds top gun uninvited wheel of fortune: featuring vanna white.</p>
+
+		<p>The bard's tale captain planet chessmaster destiny of an emperor heavy shreddin' international cricket mega man 2 pictionary rampart shingen the ruler spy vs. spy street fighter 2010: the final fight. Adventure island ii the adventures of tom sawyer the black bass darkman double dragon iii: the sacred stones dr. jekyll and mr. hyde final fantasy joust the karate kid mario is missing! rollergames romance of the three kingdoms ii super mario bros./tetris/nintendo world cup tecmo nba basketball times of lore twin cobra. Al unser jr.'s turbo racing arch rivals archon chip 'n dale: rescue rangers cobra triangle day dreamin' davey double dare duck hunt felix the cat gauntlet ii gemfire the hunt for red october last action hero panic restaurant pinball the rocketeer thunderbirds toxic crusaders ultima iii: exodus xexyz young indiana jones chronicles.</p>
+
+		<p>The adventures of bayou billy alpha mission boulder dash break time: the national pool tour days of thunder ghoul school gremlins 2: the new batch harlem globetrotters ironsword: wizards & warriors ii jack nicklaus' greatest 18 holes of major championship golf laser invasion legendary wings m.u.s.c.l.e. mappy-land mario's time machine ninja crusaders rollerblade racer spy hunter sqoon swamp thing tecmo bowl terra cresta time lord toki wayne gretzky hockey wcw wrestling whomp 'em xexyz zelda ii: the adventure of link. 8 eye's advanced dungeons & dragons: heroes of the lance advanced dungeons & dragons: pool of radiance bandai golf: challenge pebble beach crackout dr. jekyll and mr. hyde dropzone g.i. joe genghis khan the goonies ii the jetsons: cogswell's caper! kid klown in night mayor world lunar pool mickey mousecapade ninja gaiden ii: the dark sword of chaos nobunaga's ambition p.o.w.: prisoners of war pinball the ren & stimpy show: buckaroo$! shingen the ruler snow brothers star force super spy hunter talespin target: renegade tiger heli town & country ii: thrilla's surfari ufouria: the saga wheel of fortune family edition.</p>
+
+		<p>Air fortress bandit kings of ancient china batman breakthru the bugs bunny crazy castle clu clu land cobra triangle conflict darkman gyruss journey to silius konami hyper soccer kung fu heroes the lion king mega man 3 mega man 5 michael andretti's world gp ms. pac-man over horizon pro sport hockey rollergames star soldier starship hector terra cresta thunderbirds twin cobra ultimate air combat widget yo! noid. Abadox adventures in the magic kingdom bad dudes vs. dragonninja blaster master cowboy kid dig dug ii duck maze genghis khan golf grand slam kid kool platoon the rocketeer the simpsons: bartman meets radioactive man solomon's key super c tag team wrestling the trolls in crazyland vegas dream wrecking crew yoshi.</p>
+		
+		</div>
+		
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb"> <i class="icon-facebook"></i> </div>
+				<div class="yt"> <i class="icon-youtube"></i> </div>
+				<div class="tw"> <i class="icon-twitter"></i> </div>
+				<div class="gplus"> <i class="icon-gplus"></i> </div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		
+		<div class="footer">Retrogranie.com &copy; 2015 Thank you for your visit Mario! But our Princess is in another castle :)</div>
+	</div>
 </body>
 </html>
