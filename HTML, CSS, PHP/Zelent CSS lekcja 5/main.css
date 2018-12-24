@@ -1,34 +1,28 @@
-body
-{
+body{
 	background-color: #191d21;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #efefef;
 }
 
-a:link 
-{
+a:link {
     color: #fff;
 	text-decoration: none;
 }
 
-a:visited 
-{
+a:visited {
     color: #fff;
 }
 
-a:hover 
-{
+a:hover {
     color: #fff;
 }
 
-a:active 
-{    
+a:active {    
 	color: #fff;
 }
 
-.container
-{
+.container{
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
@@ -37,22 +31,19 @@ a:active
 	margin-bottom: 25px;
 }
 
-.postcard
-{
+.postcard{
 	display: inline-block;
 	width: 460px;
 	text-align: center;
 	padding: 5px;
 }
 
-.postcard p
-{
+.postcard p{
 	padding: 5px;
 	margin-top: 10px;
 }
 
-h1
-{
+h1{
 	font-size: 32px;
 	font-weight: 400;
 	color: #39a5f1;
@@ -64,33 +55,64 @@ h1
 
 /* Hover effects */
 
-.photo1
-{
+.photo1{
 	width: 450px;
+	transition: transform 0.2s ease-in-out; 
+	/* zamiast transform moge wpisac tez all */
+}
+
+.photo1:hover{	
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
 }
 
 
-.photo2
-{
+.photo2{
+	width: 450px;
+	transition: all 0.3s ease-in-out;
+}
+
+.photo2:hover{
+	-webkit-transform: scale(0.95) rotate(5deg);
+	-ms-transform: scale(0.95) rotate(5deg);
+	transform: scale(0.95) rotate(5deg);
+}
+
+.photo3{
 	width: 450px;
 }
 
-.photo3
-{
+.overlay{
+	position: relative;
+	width: 450px;
+	height: 278px;
+}
+
+.overlay .link{
+	position: absolute;
+	display: block;
+	width: 450px;
+	height: 65px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0.0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.overlay:hover .link{
+	opacity: 0.8;
+}
+
+.photo4{
 	width: 450px;
 }
 
-.photo4
-{
+.photo5{
 	width: 450px;
 }
 
-.photo5
-{
-	width: 450px;
-}
-
-.photo6
-{
+.photo6{
 	width: 450px;
 }
