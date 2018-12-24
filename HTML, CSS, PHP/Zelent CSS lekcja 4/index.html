@@ -12,24 +12,16 @@
 </head>
 
 <body>
-
 	<div id="container">
 		<form>
-			
-			Login
-			<input type="text">
-			
-			<br /><br />
-			
-			Hasło
-			<input type="password">
-			
-			<br /><br />
-			
-			<input type="submit"value="Zaloguj się">
-			
+			<input type="text" placeholder="login" 
+			onfocus="this.placeholder='';"
+			onblur="this.placeholder='login';" />
+			<input type="text" placeholder="haslo" 
+			onfocus="this.placeholder='';"
+			onblur="this.placeholder='haslo';" />		
+			<input type="submit"value="Zaloguj się" />
 		</form>
-	</div>
-	
+	</div>	
 </body>
 </html>
