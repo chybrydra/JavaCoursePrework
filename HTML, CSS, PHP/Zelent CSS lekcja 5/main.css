@@ -144,8 +144,32 @@ h1{
 
 .photo5{
 	width: 450px;
+	height: 278px;
+	overflow: hidden; /* ukryj fakt przepełnienia diva, czyli div nie zmieni rozmiaru jak obraz przekroczy jego rozmiar */
+}
+
+.photo5 img{
+	transition: all 0.5s ease-in-out;
+}
+
+.photo5:hover img{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }
 
 .photo6{
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+
+.photo6 img{
+	transition: all 0.7s ease-in-out;
+}
+
+.photo6:hover img{
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
 }
