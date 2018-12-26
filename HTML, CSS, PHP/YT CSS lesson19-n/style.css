@@ -15,3 +15,12 @@ a:visited{
 	color: purple;
 }
 
+article p:first-child{
+	color: red;
+	font-weight: bold;
+}
+
+article p:last-child{
+	color: green;
+	font-style: italic;
+}
