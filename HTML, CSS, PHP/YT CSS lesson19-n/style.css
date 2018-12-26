@@ -24,3 +24,37 @@ article p:last-child{
 	color: green;
 	font-style: italic;
 }
+
+#lastoftype p:first-of-type{
+	color: red;
+	font-weight: bold;
+}
+
+#lastoftype p:last-of-type{
+	color: orange;
+	font-style: italic;
+}
+
+li:nth-child(3){
+	font-weight: bold;
+}
+
+li:nth-child(4){
+	font-weight: bold;
+}
+
+li:nth-child(6){
+	font-weight: bold;
+}
+
+li:nth-child(odd){
+	background-color: brown;
+}
+
+li:nth-child(even){
+	background-color: orange;
+}
+
+li:nth-child(2n+1){
+	letter-spacing: 10px;
+}
