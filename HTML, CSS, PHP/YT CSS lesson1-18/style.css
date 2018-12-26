@@ -1,0 +1,19 @@
+#adjacent h2 + p{
+	color: red;
+}
+
+#adjacent h1 + p{
+	color: blue;
+}
+
+span[class]{
+	color: purple;
+}
+
+span[class="deck2"]{
+	color: red;
+}
+
+a[href^="cats"]{
+	color: orange;
+}
