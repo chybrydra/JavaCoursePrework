@@ -1,0 +1,29 @@
+body {
+	margin-left: 30px;
+}
+
+#header p{
+	text-transform: capitalize;
+	
+}
+
+body > p{
+	text-transform: uppercase;
+}
+
+body p:first-child{
+	letter-spacing: 5px;
+}
+
+body p:last-child{
+	word-spacing: 10px;
+}
+
+body p{
+	line-height: 16px;
+}
+
+a{
+	line-height: 2em; /* doubles the font-size */
+}
+
