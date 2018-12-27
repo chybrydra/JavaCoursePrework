@@ -1,0 +1,36 @@
+#main-content{
+	text-align: center;
+}
+
+#circle{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background: rgb(200, 200, 100);
+	border-radius: 200px;
+	top: 50px;
+	left: 50px;
+	opacity: 0.9;
+}
+
+#circle-2{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background: rgb(200, 100, 200);
+	border-radius: 200px;
+	top: 250px;
+	left: 250px;
+	opacity: 0.3;
+}
+
+#circle-3{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background: rgba(100, 200, 200, 1); /* rgba - red green blue with alpha channel */
+	border-radius: 200px;
+	top: 50px;
+	left: 250px;
+	opacity: 0.6;
+}

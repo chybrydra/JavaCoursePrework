@@ -1,0 +1,9 @@
+#banner{
+	background-color: #606060;
+	width: 100%;
+	height: 300px;
+	background-image: url(image.jpg), url(image2.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top center, top center;
+	background-size: 150px, 450px;
+}
