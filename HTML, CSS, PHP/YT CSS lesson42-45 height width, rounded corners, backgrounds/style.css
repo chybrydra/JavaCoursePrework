@@ -1,0 +1,31 @@
+#main-content div{
+	background-color: #ccc;
+	margin: 0 0 20px 0;
+	
+}
+
+.static-width{
+	width: 300px;
+	height: 100px;
+	border-radius: 15px;
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+}
+
+.percentage-width{
+	width: 70%;
+	height: 50px;
+	border-radius: 5px 10px 20px 40px;
+	background: url("image.jpg") no-repeat top left;
+	background-size: 75%;
+}
+
+.inline-block{
+	width: 40%;
+	padding: 25px;
+	display: inline-block;
+	background: url("image.jpg") no-repeat bottom right;
+	background-size: 75%;		
+}
