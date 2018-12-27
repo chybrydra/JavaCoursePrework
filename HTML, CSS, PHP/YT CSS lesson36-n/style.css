@@ -1,0 +1,38 @@
+body {
+	background-color: #111;
+	font-size: 50px;
+}
+
+/* testing box model */
+
+#container{
+	background-color: #997;
+	width: 900px;
+	height: auto;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* if we have 2 different vertical margins between elemeents
+they do not sum, so here between upper and lower div there is no 30+50px
+it is max(30,50) = 50px */
+.upper{
+	width: 700px;
+	padding: 50px;
+	background-color: #222;
+	margin: 30px 0 30px 0;
+}
+
+.lower{
+	width: 700px;
+	margin: 50px 0 50px 0;
+	padding: 50px;
+	background-color: #222;
+	
+}
+
+.upper, .lower{
+	width: 696px;
+	border: 2px dashed #F0F;
+}
