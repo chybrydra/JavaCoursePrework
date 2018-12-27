@@ -1,0 +1,45 @@
+body{
+	margin-left: 30px;
+}
+
+/* setting font size 3 different ways */
+article{
+	font-size: 16px;
+}
+
+article h2{
+	font-size: 3em;
+}
+
+article p{
+	font-size: 150%;
+}
+
+/* setting font family, font stack */
+article h2, article p{
+	font-family: arial, helvetica, sans-serif; /* font stack 
+	if user does not have arial, then use helvetica, 
+	if he has no helvetica then use sans-serif and sans-serif is 
+	my standard browser font
+	*/
+}
+
+a{
+	text-decoration: none;
+	text-decoration: overline;
+	text-decoration: line-through;
+}
+
+/* normally fonts don't have all possibilities, 
+f.e. one font may be normal, bold but not lighter,
+it depends on a font */
+h1{
+	font-family: "Yu Gothic";
+	font-weight: normal;
+	font-weight: lighter;
+	font-weight: bold;
+	font-weight: bolder;
+	font-weight: 100; /* 100 to 900
+	normally the font family has 3 of those
+	*/
+}
