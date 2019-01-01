@@ -1,0 +1,14 @@
+body{
+	font-size: 40px;
+	font-family: arial;
+	background-color: #222222;
+}
+
+#zegar{
+	text-align: center;
+	border: 3px solid black;
+	background-color: #624f76;
+	margin: 0 auto;
+	width: 500px;
+	
+}

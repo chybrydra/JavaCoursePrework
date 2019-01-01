@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+<head>
+    <meta charset="utf-8" />
+
+    <script type="text/javascript">
+        function check(){            
+            var number = document.getElementById("field").value;
+
+            if (number>0) {
+                document.getElementById("result").innerHTML = "Number "+number+" is more than 0";
+            } else if (number < 0){
+                document.getElementById("result").innerHTML = "Number "+number+" is less than 0";
+            } else if (number == 0) {
+                document.getElementById("result").innerHTML = "Number "+number+" is 0";
+            } else {
+                document.getElementById("result").innerHTML = "This is not a number man!";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="field" />
+    <input type="submit" value="check!" onclick="check()" />
+
+    <div id="result"></div>
+</body>
+
+
+</html>
