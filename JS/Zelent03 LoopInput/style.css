@@ -1,0 +1,36 @@
+body {
+    background-color: #020f0f;
+    text-align: center;
+}
+
+#instruction, #result{
+    margin: 10px;
+    font-family: arial;
+    color: #a72;
+    font-size: 25px;
+}
+
+input{
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    font-size: 15px;
+    height: 25px;
+}
+
+input[type="submit"]{
+    background-color: #693b00;
+    border-color: #692003;
+    color: #7f9a00;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: #692003;
+}
+
+input[type="text"]{
+    background-color: #ababab;
+    color: #692003;
+}
