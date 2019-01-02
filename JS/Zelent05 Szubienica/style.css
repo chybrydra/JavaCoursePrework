@@ -31,3 +31,21 @@ body{
     text-align: center;
     min-height: 280px;
 }
+
+.litera{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.litera:hover{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
