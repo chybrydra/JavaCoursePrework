@@ -2,6 +2,8 @@ body{
     background-color: #000;
     color: lightgray;
     font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
 }
 
 #pojemnik{
@@ -48,4 +50,14 @@ body{
     background-color: #222222;
     color: white;
     border: 3px solid white;
+}
+
+.reset{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover{
+    color: white;
 }
