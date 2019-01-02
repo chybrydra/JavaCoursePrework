@@ -6,17 +6,47 @@ body{
     font-weight: bold;
 }
 
+#menu{
+    text-align: right;
+}
+
+#newgame, #rules{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+#newgame:hover, #rules:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
 #pojemnik{
-    width: 900px;
+    max-width: 80%;
+    min-width: 450px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+#header{
+    width: 100%;
+    min-width: 450px;
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    min-height: 60px;
+}
+
 #plansza{
-    width: 900px;
+    width: 100%;
+    min-width: 450px;
+    max-width: 900px;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    font-size: 48px;
+    font-size: 40px;
     min-height: 60px;
 }
 
@@ -28,6 +58,7 @@ body{
 }
 
 #alfabet{
+    text-align: center;
     float: left;
     width: 450px;
     text-align: center;
@@ -41,7 +72,7 @@ body{
     padding: 5px;
     margin: 5px;
     border: 3px solid gray;
-    float: left;
+    display: inline-block;
     cursor: pointer;
     border-radius: 15px;
 }
@@ -60,4 +91,11 @@ body{
 
 .reset:hover{
     color: white;
+}
+
+#close{
+    position: absolute;    
+    background-color: red;    
+    right: 0;
+    bottom: 0;
 }
